@@ -1,0 +1,8 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "MyStorageConnectionAppSetting": "<Replace your connection string here>",
+    "AzureWebJobsStorage": "<Replace your connection string here>"
+  }
+}

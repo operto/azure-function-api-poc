@@ -1,0 +1,26 @@
+{
+    "bindings": [
+        {
+            "authLevel": "function",
+            "type": "httpTrigger",
+            "direction": "in",
+            "name": "req",
+            "methods": [
+                "get"
+            ]
+        },
+        {
+            "type": "http",
+            "direction": "out",
+            "name": "res"
+        },
+        {
+            "name": "blobStorage",
+            "type": "blob",
+            "path": "setttings/{Id}.json",
+            "connection": "MyStorageConnectionAppSetting",
+            "direction": "in"
+        }
+    ],
+    "disabled": false
+}
